@@ -1,0 +1,15 @@
+#inp = 1, inp = 2, inp = 11
+def prosedyre1(): # 1
+def prosedyre2(): # 2
+def prosedyre3(): # 3
+
+print("Hei fra prosedyre1")
+tall = int(input("Skriv inn et tall\n>"))
+    if tall % 2:
+        print("Hei fra prosedyre1")
+        tall = int(input("Skriv inn et tall\n>"))
+            if tall % 2:
+            else:
+                tall = int(input("Skriv inn et tall\n>"))
+                if tall > 10:
+                prosedyre1()
