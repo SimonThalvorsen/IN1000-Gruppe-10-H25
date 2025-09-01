@@ -3,7 +3,7 @@
 | Uke    | Mandag (Seminarrom Logo 10:15-12:00) | Torsdag (Seminarrom Caml 08:15-10:00) |
 | ------ | ------------------------------------ | ------------------------------------- |
 | Uke 01 | [Mandag - Uke 01](./uke-01/mandag/)  | [Torsdag - Uke 01](./uke-01/torsdag/) |
-| Uke 02 | Kommer                               | [Torsdag - Uke 02](./uke-02/torsdag/) |
+| Uke 02 | [Mandag - Uke 01](./uke-02/mandag/)  | [Torsdag - Uke 02](./uke-02/torsdag/) |
 
 ---
 
