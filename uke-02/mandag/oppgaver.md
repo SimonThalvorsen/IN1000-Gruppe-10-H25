@@ -2,7 +2,7 @@
 
 Programmet nedenfor mangler funksjonalitet for å legge til den største summen på slutten av setningen. Utvid programmet slik at setningen, inkludert den største summen, skrives ut. Tenk at tallene kan endre seg. Hvilke hensyn tar dere til at summene da kan være like? Diskuter og lag en plan for hva dere trenger i programmet før dere programmerer. Se kjøringen av programmet deres i Python Tutor. Det er viktig at dere forstår i detalj hva som skjer i hver programlinje samt i hvilken rekkefølge linjene kjøres.
 
-'''python
+```python
 tall1 = 15.7
 tall2 = 9.4
 sum1 = tall1 + tall2
@@ -10,7 +10,7 @@ tall3 = 37
 tall4 = 11
 sum2 = tall3 + tall4
 setning = "Den største summen er: "
-'''
+```
 
 ## Oppgave 2
 
