@@ -24,4 +24,4 @@ Passkontrollen på Oslo Airport Gardermoen ønsker å ta vare på informasjon om
 Utvid programmet dere lagde forrige uke til å håndtere flere konti(kanskje også flere brukere, dersom du ønsker en utfordring).
 Hva skal lagres for hver konto og hvordan skal denne informasjonen lagres?
 
-Dersom du ikke har oppgaven tilgjengelig kan du bruke et av løsningsforslagene i github-mappen fra uke02, pass på å sette deg inn i koden før du begynner hvis du ikke er 100% sikker på logikken (evt. spørre noen om hjelp).
+Dersom du ikke har oppgaven tilgjengelig, så har jeg lagt ved 2 eksempler på hvordan løse oppgaven fra forrige uke, pass på å sette deg inn i koden før du begynner hvis du ikke er 100% sikker på logikken (evt. spørre noen om hjelp).
