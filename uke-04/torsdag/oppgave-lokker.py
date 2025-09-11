@@ -44,13 +44,37 @@ priser_per_vare = {
 # Oppgave 1:
 # Skriv ut hver vare i handlelisten i riktig rekkefølge og skriv samtidig ut hvilken
 # posisjon i handlelisten du finner den i.
+"""for vare in handleliste:
+    print(vare, handleliste.index(vare))
 
+idx = 0
+while idx < len(handleliste):
+    print(handleliste[idx], idx)
+    idx += 1"""
 
 # Oppgave 2:
 # Du skal nå gå gjennom hele listen fra start helt til du finner elementet 'Ost'. 
 # Når du finner Ost skal du skrive "Ost ligger i listen" og avslutte programmet.
+"""cur = ""
+idx = 0
+while cur != "Ost":
+    cur = handleliste[idx]
+    idx += 1
+print("Ost er i handlelisen")"""
+
+"""for vare in handleliste:
+    if "Ost" == vare:
+        print("Ost er i listen")
+        break"""
 
 
 # Oppgave 3:
 # Du skal nå gå gjennom alle prisene per vare og skrive ut oversiktlig hva hver vare koster.
 # Du skal ikke bruke listen med matvarer som hjelp, kun jobbe på ordboken.
+
+for varenavn in priser_per_vare:
+    print(f"{varenavn} koster {priser_per_vare[varenavn]:.2f} kr")
+
+
+for vare, pris in priser_per_vare.items():
+        print(f"{vare} koster {pris:.2f} kr")
