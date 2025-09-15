@@ -33,6 +33,18 @@ Programmet skal fungere for enhver liste med vareID-er (strenger) med flere dupl
 # Oppgave 5: Utfordring
 
 Skriv et program som tar inn et heltall fra bruker. Bruk dette tallet å skrive ut en pyramide med størrels avhengig av brukerens input.
+Eks.
+```
+hoyde
+>5
+
+     /\
+    /  \
+   /    \
+  /      \
+ /        \
+ __________
+```
 
 # Oppgave 6: Ekstra utfordring
 
