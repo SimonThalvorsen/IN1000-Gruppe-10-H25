@@ -9,4 +9,4 @@
 
 ---
 
-Dersom du lurer på noe, ta kontakt på mail *simontha@uio.no* eller _DISCOURSE (lenke kommer)_.
+Dersom du lurer på noe, ta kontakt på mail *simontha@uio.no* eller _[DISCOURSE](https://discourse.uio.no/c/in1000-25h/671)_.
