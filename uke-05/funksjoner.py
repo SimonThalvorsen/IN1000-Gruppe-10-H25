@@ -3,6 +3,20 @@
 # A) Lagre tallet funksjonen returnerer i en variabel. Skriv ut variabelen.
 # B) Hva hadde stått i terminalen hvis du i a) hadde glemt return og så printet variabelen? Begrunn resultatet.
 
+def maxOf(x: int, y: int) -> int:
+    stoerst = None
+    if x >= y:
+        stoerst = x
+    else:
+        stoerst = y
+        
+    return stoerst
+    
+res = maxOf(5, 10)
+print(res)
+    
+
+
 
 # Oppgave 2
 # Diskuter følgende spørsmål:
@@ -12,7 +26,8 @@
 #
 #
 # Oppgave 3
-# Skriv en funksjon som tar i mot to sannhetsverdier (True/False) og returnerer 1 hvis begge verdier er sanne, 0 hvis begge verdier ikke er sanne. Hva tar funksjonen ikke hensyn til (hva kan gå “galt”)?
+# Skriv en funksjon som tar i mot to sannhetsverdier (True/False) og returnerer 1 hvis begge verdier er sanne,
+#  0 hvis begge verdier ikke er sanne. Hva tar funksjonen ikke hensyn til (hva kan gå “galt”)?
 #
 #
 # Oppgave 4
@@ -20,9 +35,26 @@
 #
 # A) Bruk en for-løkke til å skrive ut alle verdiene i listen.
 #
-# B) Skriv en prosedyre med en parameter liste. Skriv ut alle verdiene i lista ved å bruke prosedyren. Besvar deretter følgende spørsmål:
+# B) Skriv en prosedyre med en parameter liste. Skriv ut alle verdiene i lista ved å bruke prosedyren.
+# Besvar deretter følgende spørsmål:
 #   B-1) Hva er prosedyrens argument i dette tilfellet?
 #   B-2) Hva er verdien til prosedyrens parameter i dette tilfellet?
 #
 # C) Lag en funksjon som finner og returnerer den laveste verdien i lista. Hint: her kan 
 # det være lurt å ha en variabel som mellomlagrer den til enhver tid minste verdien. 
+
+lst = [6, 3, 2, 8, 11]
+
+def skrivUtTall(lst: list[int]):
+    for tall in lst:
+        print(tall)
+
+def finnMin(lst: list[int]):
+    minste = lst[0]
+    for tall in lst:
+        if tall < minste:
+            minste = tall
+
+    return minste
+
+print(finnMin(lst))

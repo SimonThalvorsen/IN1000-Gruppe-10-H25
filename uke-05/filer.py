@@ -8,12 +8,22 @@
 #
 # C) Test at programmet fra a) fungerer ved å bruke filen du opprettet i b).
 
-# fil = open("historiske_personer.txt", "r")
-# liste = []
-# for linje in fil:
-#     liste.append(linje)
-# fil.close()
+f = open("historiske_personer.txt", "r")
 
+# for linje in f:
+#     print(linje.strip("\n"))
+    
+linjer = f.readlines()
+print(linjer)
+for x in linjer:
+    print(x.strip("\n"))
+
+# linjer.sort()
+# sorted(linjer) -> ['aaaaa\n', 'b\n', 'c\n', 'd\n', 'e\n', 'f\n', 'g\n', 'i\n', 'k\n', 'l\n', 'x\n', 'y\n', 'z\n']
+# linjer = sorted(linjer)
+# print(linjer)
+
+f.close()
 
 #
 # Oppgave 6
@@ -29,23 +39,15 @@
 # Lag et nytt program, som bruker en funksjon til å lese inn filen du laget i b) og som returnerer en ordbok tilsvarende den i a). 
 # Funksjonen skal ha parameter filnavn. 
 
-ordbok = {"Simon blir født":2002, "Norge får grunnlov":1814, "Krigen er over":1918, "Krigen er over (2)": 1945}
+ordbok = {"Simon": 2002, "Shane West": 1978, "Harry Muskee": 1941}
+f = open("historiske_personer.txt", "w")
 
-filnavn = "historiske_hendelser"
+for key in ordbok:
+    val = ordbok[key]
+    f.write(key)
+    f.write(";")
+    f.write(str(val))
+    f.write("\n")
 
-def lag_tekst_fil(filnavn, ordbok):
-    fil = open(filnavn, "w")
-    for key in ordbok:
-        fil.write(key)
-        fil.write(";")
-        fil.write(str(ordbok.get(key)))
-        fil.write("\n")
-
-        # print(key)
-        # print(ordbok.get(key))
-    fil.close()
-
-lag_tekst_fil(filnavn, ordbok)
-
-
+f.close()
 
