@@ -7,6 +7,7 @@
 | Uke 03 | [Mandag - Uke 03](./uke-03/mandag/)  | [Torsdag - Uke 03](./uke-03/torsdag/) |
 | Uke 04 | [Mandag - Uke 04](./uke-04/mandag/)  | [Torsdag - Uke 04](./uke-04/torsdag/) |
 | Uke 05 | [Mandag - Uke 05](./uke-05/mandag/)  | [Torsdag - Uke 05](./uke-05/torsdag/) |
+| Uke 06 | [Mandag - Uke 06](./uke-06/mandag/)  | [Torsdag - Uke 06](./uke-06/torsdag/) |
 
 ---
 
