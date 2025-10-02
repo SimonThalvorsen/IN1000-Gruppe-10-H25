@@ -1,5 +1,4 @@
-konto = "1234.1234.1234.1234"
-saldo = 1000
+
 
 def sett_inn():
     global saldo
@@ -51,5 +50,11 @@ def meny():
     else:
         print("Ha en fin dag videre!")
 
-kommandoer()
-meny()
+def main():
+    global konto, saldo
+    konto = "1234.1234.1234.1234"
+    saldo = 1000
+    kommandoer()
+    meny()
+
+main()
