@@ -1,0 +1,15 @@
+Bøker
+    Sjanger ✔
+    Forfatter ✔
+    Tittel ✔
+    utgivelsesår ✔
+
+Hyller
+    Sortere Bøker
+    Holder på Bøker ✔
+    Søke på Bøker ✔
+
+bibliotek
+    Bokhyller
+    Søke pc
+    fylle på bøker
