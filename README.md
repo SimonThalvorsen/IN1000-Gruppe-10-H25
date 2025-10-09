@@ -9,6 +9,7 @@
 | Uke 05 | [Mandag - Uke 05](./uke-05/mandag/)  | [Torsdag - Uke 05](./uke-05/torsdag/) |
 | Uke 06 | [Mandag - Uke 06](./uke-06/mandag/)  | [Torsdag - Uke 06](./uke-06/torsdag/) |
 | Uke 07 | --- Ingen nye oppgaver ---           | [Torsdag - Uke 07](./uke-07/torsdag/) |
+| Uke 08 | --- Kommer ---                       | [Torsdag - Uke 08](./uke-08/torsdag/) |
 
 ---
 
